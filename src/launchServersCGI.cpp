@@ -10,6 +10,8 @@
 #include "utils.hpp"
 #include "debugDefs.hpp"
 #include "launchServers.hpp"
+#include <sys/types.h>
+#include <sys/wait.h>
 
 int8_t	prepair_response(std::map<int, cgi_buff>::iterator msg);
 
