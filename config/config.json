@@ -1,0 +1,24 @@
+{
+	"servers": [
+		{
+			"listen": 8080,
+			"server_name": "test",
+			"root": "./websites/test-site",
+			"locations": [
+				{
+					"/": {
+						"dir_listing": true
+					},
+					"/hello": {
+						"default_file": "index.html"
+					}
+				}
+			]
+		},
+		{
+			"listen": 4242,
+			"server_name": "basic",
+			"root": "./websites/basic-site"
+		}
+	]
+}
