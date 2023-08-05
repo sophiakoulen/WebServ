@@ -46,7 +46,7 @@ FILES	= main \
 
 OBJS_PATH = objs/
 SRCS_PATH = src/
-INCS_PATH = $(SRCS_PATH)headers/
+INCS_PATH = headers/
 
 SRCS	= $(addprefix $(SRCS_PATH), $(addsuffix .cpp, $(FILES)))
 OBJS	= $(addprefix $(OBJS_PATH), $(addsuffix .o, $(FILES)))
